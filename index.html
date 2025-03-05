@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header>
+        <div class="ml-32 mr-32">  
+            <div class=" navbar bg-base-100 shadow-sm mt-5 pl-10 justify-between pl-24 px-28">
+                <div class="flex">
+                    <img src="assets/logo.png" alt="">
+                <a class="btn btn-ghost text-2xl mt-1">Dev <span class="font-bold">Board</span> </a>
+                </div>
+                
+                <div>
+                    <button id="back-main" class="border p-2 bg-blue-700 text-white font-bold rounded-lg">Back To desk </button>
+                </div>
+        </div>    
+    </header>
+    <main>
+        <h1 class="font-bold text-xl text-center mt-8">Blogs</h1>
+
+
+        <div class="mt-4">
+            <h1 class="font-bold text-xl">Question-1: What are the different ways to select an element in the DOM?</h1>
+            <p>1no Ans: to select element by id in the DOM, use document.getElementById();</p>
+        </div>
+        <div>
+            <h1 class="font-bold text-xl">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+            <p>2no Ans: innerText is used to get or set the visible text inside an element ignoring hidden elements and extra spaces</p>
+        </div>
+        <div>
+            <h1 class="font-bold text-xl">Question-3: What is event delegation in the DOM?</h1>
+            <p>3no Ans: Event delegation is a tachnique where a single event listener is added to a parant element to handle events on its child elements using event bubbling</p>
+        </div>
+        <div>
+            <h1 class="font-bold text-xl">Question-4: What is event bubbling in the DOM?</h1>
+            <p>4no Ans: Event Bubbling is a DOM machanism where an event starts from the target element and propagates upward to its parent elements.</p>
+        </div>
+        <div>
+            <h1 class="font-bold text-xl">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+            <p>5no Ans: parentElement.appendChild(newElement);</p>
+        </div>
+    </main>
+
+    <script src="script/index.js"></script>
+</body>
+</html>
